@@ -1,0 +1,164 @@
+body, html{
+	height:100%; 
+	margin: 0; 
+
+}
+
+
+
+.navbar-default {
+  background: transparent;
+  border:none;
+  box-shadow: none;
+
+}
+
+
+
+.navbar .navbar-brand, 
+.navbar .navbar-nav > li > a, 
+.navbar .navbar-nav .dropdown .dropdown-menu > li > a {
+	color: white;
+	font-family: "Anton", sans-serif; 
+	letter-spacing: 2px;
+	font-size: 18px;
+	text-shadow: 0px 0px 1px black; 
+}
+.navbar .navbar-nav .dropdown .dropdown-menu > li > a{
+	font-size: 13px;
+}
+
+ 
+ 
+.navbar .navbar-brand:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav .dropdown .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .dropdown .dropdown-menu > li > a:focus {
+	color:#B45537;
+	box-shadow: none;
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar .navbar-nav .dropdown .dropdown-menu > li >a:hover, 
+.navbar .navbar-nav .dropdown .dropdown-menu > li >a:focus{
+	background-image: none;
+	background-color:transparent;
+}
+
+
+.navbar .navbar-nav .dropdown .dropdown-menu{
+	background-color: transparent;
+	text-align: right;
+	border:none;
+	box-shadow: none;
+}
+
+
+
+.carousel-indicators > li.active{
+	background-color:pink;
+}
+
+.carousel-indicators > li, 
+.carousel-indicators > li.active{
+	border-radius: 3px;
+	height:5px;
+	width:50px;
+	box-shadow: 0px 0px 1px black; 
+}
+
+
+img {
+	
+	min-height:100%; 
+	min-width: 100%;
+	position:relative; 
+	background-position:center; 
+	background-size:cover;
+	background-repeat:no-repeat; 
+}
+
+
+.carousel, .item, .active, .carousel-inner{
+	height:100%;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:white;
+	border-color: white;
+}
+
+#about, #contact{
+
+	min-height:100%; 
+	min-width: 100%;
+
+}
+
+#contact{
+	background-image: url("../images/pexels-photo.jpg");
+	position:relative; 
+	background-position:center; 
+	background-size:cover;
+	background-repeat:no-repeat; 
+}
+
+#about{
+	background-image: url("../images/pexels-photo-185348.jpeg");
+	position:relative; 
+	background-position:center; 
+	background-size:cover;
+	background-repeat:no-repeat; 
+}
+
+#about{
+	background-color:#4286f4;
+	padding:50px;
+}
+
+
+#profilePic{
+	margin-top:40px;
+	min-height: 0%; 
+	min-width: 0%;
+	position: relative;
+	height:300px;
+	width:250px;
+	box-shadow: 10px 10px #B45537;
+
+
+}
+
+h3{
+	margin:80px;
+	font-family: "Lato", sans-serif; 
+	font-size:20px;
+	border:5px;
+	text-shadow: 1px 1px 1px black;
+	color:white;
+	
+}
+
+h3 span{
+	background-color:#B45537;
+	opacity: 0.8;
+	height:20px;
+	width:50px
+}
+
+.glyphicon{
+	margin-left:200px;
+	margin-right:200px;
+	margin-bottom:200px;
+	margin-top:250px;
+	font-size: 30px;
+	color:white;
+	box-shadow: 1px 1px 1px black;
+}
